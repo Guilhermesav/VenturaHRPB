@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dados", "3 - Dados", "{A3AE23BD-DED1-4896-AC81-44202893242D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenturaHRPB.Model", "..\VenturaHRPB.Model\VenturaHRPB.Model.csproj", "{80DE3761-6228-4E4A-A22F-927669FA1BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VenturaHRPB.Model", "..\VenturaHRPB.Model\VenturaHRPB.Model.csproj", "{80DE3761-6228-4E4A-A22F-927669FA1BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenturaHRPB.Dados", "..\VenturaHRPB.Dados\VenturaHRPB.Dados.csproj", "{307E4374-9EEE-48C7-BBE5-49B62D06F243}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{80DE3761-6228-4E4A-A22F-927669FA1BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80DE3761-6228-4E4A-A22F-927669FA1BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80DE3761-6228-4E4A-A22F-927669FA1BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307E4374-9EEE-48C7-BBE5-49B62D06F243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307E4374-9EEE-48C7-BBE5-49B62D06F243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307E4374-9EEE-48C7-BBE5-49B62D06F243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307E4374-9EEE-48C7-BBE5-49B62D06F243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{05C2587D-0D58-4D9D-9CE2-5CE215E52CA8} = {1B061C47-A80F-4BBC-A45D-B954101B1643}
 		{80DE3761-6228-4E4A-A22F-927669FA1BDB} = {21D19FB7-0F9C-4C48-B33C-13C6CE503131}
+		{307E4374-9EEE-48C7-BBE5-49B62D06F243} = {A3AE23BD-DED1-4896-AC81-44202893242D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EB4F49F-479B-4655-9AF5-5AFCAA7DB986}
